@@ -207,7 +207,7 @@
                     />
                     <input
                       class="form-control"
-                      placeholder="Enter Disk Partition"
+                      placeholder="Enter Disk Size"
                       name="DisplayName"
                       type="text"
                       value=""
