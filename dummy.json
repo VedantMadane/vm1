@@ -1,0 +1,41 @@
+{
+    "enviornment" : "Production",
+    "duration" : "2",
+    "firewallRules" @: [ 
+        {
+            "application" : "2",
+            "port" : "2",
+            "incomingOutgoing" : "2",
+            "sourceIP" : "2",
+            "destinationIP" : "2"
+        }
+    ],
+    "program" : "project1",
+    "OS" : "linux",
+    "recipients" : [ 
+        "apurvag"
+    ],
+    "internetAccess" : "YES",
+    "dataCenter" : "Mumbai Local",
+    "backupRequired" : "YES",
+    "pip" : "YES",
+    "status" : "created",
+    "project" : "pro4",
+    "OSArchitecture" : "32-bit",
+    "resources" : {
+        "RAM" : "2",
+        "CPU" : "2",
+        "disks" : [ 
+            {
+                "partition" : "2",
+                "size" : "2"
+            }
+        ]
+    },
+    "vmType" : "DB",
+    "monitoringRequired" : "YES",
+    "Author" : "bhaktig",
+    "Date" : 1596880983.0
+}
+
+

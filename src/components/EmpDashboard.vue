@@ -1,102 +1,20 @@
 <template>
   <div>
-      <Navbar/>
-    <div class="social-box">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-xs-12 text-center">
-            <div class="box">
-              <!-- <i class="fa fa-behance fa-3x" aria-hidden="true"></i> -->
-              <div class="box-title">
-                <h3>Manage Data Center</h3>
-              </div>
-              <div class="box-text"></div>
-              <div class="box-btn">
-                <button> <router-link to="/AddDatacenter">Add Data Center</router-link> </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-xs-12 text-center">
-            <div class="box">
-              <!-- <i class="fa fa-twitter fa-3x" aria-hidden="true"></i> -->
-              <div class="box-title">
-                <h3>Manage Environment</h3>
-              </div>
-              <div class="box-text"></div>
-              <div class="box-btn">
-                 <button> <router-link to="/AddEnvironment">Add Environment</router-link> </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-xs-12 text-center">
-            <div class="box">
-              <!-- <i class="fa fa-facebook fa-3x" aria-hidden="true"></i> -->
-              <div class="box-title">
-                <h3>Manage Program</h3>
-              </div>
-              <div class="box-text"></div>
-              <div class="box-btn">
-                <button> <router-link to="/ManageProgram">Manage Program </router-link> </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-xs-12 text-center">
-            <div class="box">
-              <!-- <i class="fa fa-pinterest-p fa-3x" aria-hidden="true"></i> -->
-              <div class="box-title">
-                <h3>Manage User</h3>
-              </div>
-              <div class="box-text"></div>
-              <div class="box-btn">
-                <a href="#">Learn More</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-xs-12 text-center">
-            <div class="box">
-              <!-- <i class="fa fa-google-plus fa-3x" aria-hidden="true"></i> -->
-              <div class="box-title">
-                <h3>VM Repository</h3>
-              </div>
-              <div class="box-text"></div>
-              <div class="box-btn">
-                <a href="#">Learn More</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-xs-12 text-center">
-            <div class="box">
-              <!-- <i class="fa fa-github fa-3x" aria-hidden="true"></i> -->
-              <div class="box-title">
-                <h3>VM Reports</h3>
-              </div>
-              <div class="box-text"></div>
-              <div class="box-btn">
-                <a href="#">Learn More</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+      <EmpNavbar/>
+    
     <Footer/>
   </div>
 </template>
 
 <script>
 
-import Navbar from '@/components/Navbar'
+import EmpNavbar from '@/components/EmpNavbar'
 import Footer from '@/components/Footer'
 export default {
   name: 'App',
 
   components: {
-   Navbar,
+   EmpNavbar,
    Footer
   },
 
